@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio | Lucas Ribeiro</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+
+    <link rel="stylesheet" href="">
+</head>
+  <body onscroll="scrollNavbar()">
+    <!-- navbar -->
+    <header id="navbar">
+      <img id="logo" src="/img/logo.svg" alt="Code" />
+      <h2>Lucas Ribeiro</h2>
+      <nav>
+        <ul id="navbar-list">
+          <li><a href="#about-section">Sobre</a></li>
+          <li><a href="#jobs-section">Projetos</a></li>
+          <li><a href="#contact-section">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- fim navbar -->
+    <main>
+      <!-- banner inicio -->
+      <div id="main-banner">
+        <div id="banner-info">
+          <h1>Olá, eu sou Lucas Ribeiro!</h1>
+          <img src="/img/eu-link.jpg" alt="Lucas Ribeiro" />
+          <p>Programador em desenvolvimento!</p>
+        </div>
+      </div>
+      <!-- banner fim-->
+      <!-- About inicio-->
+      <section id="about-section">
+        <h2>Sobre mim</h2>
+        <p>
+          Possuo conhecimento na área de computação, especificamente em programação, 
+          na qual estudo diariamente tecnologias e métodos de desenvolvimento web e mobile. 
+          Além dos pacotes Office padrão. Ótimo raciocínio lógico e leitura.
+        </p>
+      </section>
+      <!-- About fim-->
+    </main>
+    <!-- Skills inicio-->
+    <section id="skills-section">
+        <div class="container">
+            <div class="skills-container">
+                <i class="far fa-file-code"></i>
+                <h3>Desenvolvimento</h3>
+                <p>Minha maior paixão é desenvolver projetos web e mobile</p>
+                <p class="subtitle">Linguagens que utilizo:</p>
+                <p>HTML, CSS, JS, C, Node</p>
+                <p class=" subtitle"> Projetos que posso desenvolver:</p>
+                <p>Landing-Pages, Portfólios, Sistemas de Gerenciamento</p>
+            </div>
+            <div class="skills-container central">
+                <i class="fab fa-react"></i>
+                <h3>Frameworks</h3>
+                <p>Conhecimento de frameworks e outras ferramentas!</p>
+                <p class="subtitle">Ferramentas que utilizo:</p>
+                <p>React, React Native, SQL, RealmDB</p>
+                <p class=" subtitle"> Projetos que posso desenvolver:</p>
+                <p>Projetos básicos envolvendo esses frameworks e banco de dados</p>
+            </div>
+            <div class="skills-container">
+                <i class="fas fa-microchip"></i>
+                <h3>Hardware</h3>
+                <p>Tenho experiência com projetos físicos também!</p>
+                <p class="subtitle">Ferramentas que utilizo:</p>
+                <p>Arduino</p>
+                <p class=" subtitle"> Projetos que posso desenvolver:</p>
+                <p>Projetos básicos envolvendo Arduino e seus componentes</p>
+            </div>
+        </div>
+    </section>
+    <!-- Skills fim -->
+    <!-- Jobs inicio -->
+    <section id="jobs-section">
+        <h2>Veja meus últimos trabalhos:</h2>
+        <p>Aqui estão os meus mais recentes projetos: Veja todos <a href="#">aqui</a></a></p>
+        <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+        </div>
+        <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+        </div>
+        </section>
+    <!-- Jobs fim -->
+    <!-- footer inicio -->
+    <footer id="contact-section">
+        <h2>Me mande uma mensagem</h2>
+        <p>Caso queira falar sobre algum projeto, contratar para algum serviço relacionado ou falar sobre tecnologias, entre em contato comigo por:</p>
+        <img src="img/eu-link.jpg" alt="Lucas Ribeiro">
+        <form action="" method="">
+            <input type="text" name="name" placeholder="Seu nome">
+            <input type="text" name="email" placeholder="Seu e-mail">
+            <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Desenvolvido por <span>Lucas Ribeiro</span></p>
+    </footer>
+    <!-- footer fim -->
+  <script src="/scripts/scrollNavbar.js"></script>
+  </body>
+</html>

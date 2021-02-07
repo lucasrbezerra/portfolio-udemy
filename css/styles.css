@@ -1,0 +1,392 @@
+/* geral e reset */
+body,
+p,
+h1,
+h2,
+input,
+textarea {
+  margin: 0;
+  font-family: nunito, sans-serif;
+}
+
+/* Regra geral para todos os h2*/
+h2 {
+  font-size: 30px;
+}
+
+/* Navbar */
+#navbar {
+  background-color: #a31463;
+  color: white;
+  padding: 0 15px;
+  height: 80px;
+}
+
+#navbar h2,
+#navbar ul,
+#navbar-list li,
+#navbar nav {
+  display: inline-block;
+}
+
+#navbar h2 {
+  margin-top: 10px;
+  line-height: 60px;
+  margin-left: 55px;
+}
+
+#navbar img {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 20px;
+}
+
+#navbar nav {
+  float: right; /* Movimenta os tópicos para a direita*/
+}
+
+#navbar ul {
+  margin-top: 30px;
+}
+
+#navbar li {
+  margin: 0 10px; /*0 para superior e inferior 10px para laterais*/
+}
+
+#navbar-list li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#navbar-list li a:hover {
+  color: #121212;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+.sticky ul {
+  margin-right: 30px;
+}
+
+/* Banner */
+#main-banner {
+  height: 70vh;
+  background-image: url("../img/dev.jpg");
+  background-size: cover;
+}
+
+#banner-info {
+  width: 40%;
+  margin-left: auto; /* Alinha a foto ao centro*/
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  padding: 120px;
+}
+
+#banner-info img {
+  height: 150px;
+  border: 2px solid #a31463;
+  border-radius: 50%;
+  margin: 30px 0;
+}
+
+#banner-info p {
+  background-color: #a31463;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  font-weight: bold;
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+/* About */
+
+#about-section {
+  text-align: center;
+  background-color: #a31463;
+  color: white;
+  padding-top: 50px;
+  height: 350px;
+}
+
+#about-section h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+
+#about-section p {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
+}
+
+/* Skills */
+
+#skills-section {
+  margin-top: -100px;
+  background-color: #f1f1f1;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #a31463;
+  border-radius: 10px;
+}
+
+#skills-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skills-container {
+  flex: 1 1 1;
+  text-align: center;
+  padding: 60px 25px;
+}
+
+.central {
+  border-left: 1px solid #a31463;
+  border-right: 1px solid #a31463;
+}
+
+.skills-container h3 {
+  color: #a31463;
+  font-size: 20px;
+}
+
+.skills-container i {
+  font-size: 60px;
+  height: 60px;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-top: 1px solid #a31463;
+  border-left: 1px solid #a31463;
+  border-bottom: 4px solid #a31463;
+  border-right: 4px solid #a31463;
+}
+
+.skills-container i.fa-file-code {
+  color: orangered;
+}
+
+.skills-container i.fa-react {
+  color: turquoise;
+}
+
+.skills-container i.fa-microchip {
+  color: #121212;
+}
+
+.skills-container .subtitle {
+  font-weight: bold;
+  color: #a31463;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.skills-container p {
+  line-height: 25px;
+}
+
+/* Projetos */
+
+#jobs-section {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#jobs-section h2 {
+  color: #a31463;
+  margin-bottom: 50px;
+}
+
+#jobs-section p {
+  margin-bottom: 50px;
+}
+
+#jobs-section a {
+  font-weight: bold;
+  color: #a31463;
+}
+
+.job-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.job-box {
+  flex: 1 1 200px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  height: 300px;
+  background-size: cover;
+  border-right: 2px solid #a31463;
+  border-bottom: 2px solid #a31463;
+}
+
+.proj1 {
+  background-image: url("../img/fichas.png");
+}
+
+.proj2 {
+  background-image: url("../img/happy.png");
+}
+
+.proj3 {
+  background-image: url("../img/memento.png");
+}
+
+/* footer */
+footer {
+    padding: 50px 0;
+    background-color: #a31463;
+    color: white;
+    text-align: center;
+}
+
+footer img {
+    height: 80px;
+    border-radius: 50%;
+    margin: 30px 0;
+}
+
+footer p {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+footer form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+footer input, footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box; /*respeitar os pixels de largura e altura*/
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+footer span {
+    font-weight: bold;
+    color: turquoise;
+}
+
+/* Responsivo celulares - media query*/ /*sobrescreve as regras anteriores quando abaixo de 450px*/
+@media(max-width: 560px){
+
+  /* html - 18px -> 1rem -> 18px*/
+  /* geral */
+  p, input, textarea, #navbar-list li a{
+    font-size: 1.2rem;
+  }
+
+  /* navbar */
+  #navbar h2{
+    display: none; /* remove o title*/
+  }
+
+  #navbar img{
+    top: 22px;
+    margin-left: 20px;
+  }
+
+  #navbar ul{
+    margin-top: 1.8rem;
+  }
+  
+  /* banner */
+
+  #main-banner {
+    height: 60vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+
+  #banner-info {
+    width: 60%;
+  }
+
+  #banner-info p {
+    margin: 0;
+    width: auto;
+  }
+
+  /* about */
+  #about-section {
+    padding: 2rem;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  /* skills */
+  #skills-section {
+    margin-top: -35px;
+    width: 75%;
+  }
+
+  #skills-section .container {
+    flex-direction: column;
+  }
+
+  .skills-container h3, .skills-container .subtitle {
+    font-size:  1.3rem;
+  }
+
+  .skills-container {
+    padding: 25px;
+  }
+
+  .skills-container.central{
+    border-top: 1px solid #a31463;
+    border-bottom: 1px solid #a31463;
+  }
+
+  /* jobs */
+  #jobs-section h2, #jobs-section p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .job-container {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .job-box {
+    margin-bottom: 2rem;
+    flex: 1 1 300px;
+  }
+
+  /* footer */
+  footer {
+    padding: 50px 15px;
+    margin: 0 auto;
+  }
+
+  footer form {
+    width: 100%;
+  }
+
+  span {
+    margin-top: 10px;
+    display: block;
+  }
+}
